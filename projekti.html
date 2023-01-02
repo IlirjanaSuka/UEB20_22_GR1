@@ -5,31 +5,120 @@
         <meta charset="UTF-8">
         <title>FindYourWay</title>
         <link rel="stylesheet"  href="style.css">
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+       
     </head>
     <body>
+      
     <div class="banner-area">
         <header>
-            <img src="Picture2-1.jpg " id="ww">
+            <img src="https://o.remove.bg/downloads/91f700d8-d47d-4973-bef6-2cdf434718a8/career-in-technology-feature-removebg-preview.png" id="ww">
             <a href="#" class="logo">FindYourWay</a>
                 <ul class="menu">
                    <li> <a href="#">Log In</a></li>
                    <li> <a  href="#">Sign Up</a></li>
                 </ul>
                 <ul class="menu1">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Drejtimet</a></li>
-                    <li><a href="#">Edukimi</a></li>
-                    <li><a href="#">Këshilla</a></li>
+                    <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href="#"><i class="fa fa-building-columns"></i>Drejtimet</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Automatikë e Kompjuterizuar dhe Robotikë</a></li>
+                                <li><a href="#">Elektroenergjetikë</a></li>
+                                <li><a href="#"> Elektronikë</a></li>
+                                <li><a href="#">Inxhinieri Kompjuterike</a></li>
+                                <li><a href="#"> Telekomunikacion</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="#"><i class="fa fa-graduation-cap"></i>Edukimi</a>
+                        <ul class="drop">
+                            <li><a href="#">Para universitar</a></li>
+                            <li><a href="#">Universitar</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="fa  fa-clone"></i>Këshilla</a></li>
                 </ul>
+                <div class="search">
+                    <form>
+                        <input type="text" placeholder="Search..." name="Search">
+                        <button type="submit"><i class="fa fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
         </header>
         </div>
    <div class="welcome-text">
-    <h2>Gjejeni rrugën tuaj <br>
-        drejt suksesit!</h2>
-    <p>Mirëseerdhët në platformën për orientim në karrierë,<br>
-       eksplorim të profesioneve, shkollave, qendrave të trajnimit,<br> 
-        fakulteteve, këshillave dhe analizës së punëve.</p>
-   </div>
+        <ul>
+            <li class="ff">Gjejeni rrugën tuaj <br>
+                drejt suksesit!</li>
+            <li class="first">Mirëseerdhët në platformën për orientim në karrierë</li>
+             <li class="second" > eksplorim të profesioneve, shkollave, qendrave të trajnimit</li> 
+             <li class="third">  fakulteteve, këshillave dhe analizës së punëve.</li>
+        </ul>
+    </div>
+
+    <div class="seperate">
+        <table class="table">
+            <tr>
+                <td>
+                    <table class="table1">
+                        <thead>
+                        <tr>
+                            <td>
+                                <img src="https://busulla.com/api/occupation/occupationimage?type=cover&imagepath=ElectricalElectronicsDrafters.jpg" width="200px" height="100px">
+                            </td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><h4>Hartues i Elektrikes <br>dhe Elektronikes</h4><br\>
+                                    <button type="text" value="Me shume"> <a href="#" >Me shume</a> </button> 
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td>
+                     <table class="table2">
+                    <thead>
+                    <tr>
+                        <td>
+                            <img src="https://busulla.com/api/occupation/occupationimage?type=cover&imagepath=electr.jpg" width="200px" height="100px">
+                        </td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h4> Inxhinier i energjise</h4>
+                                   <br/>
+                                   <button type="text" value="Me shume"> <a href="#" >Me shume</a> </button>               
+                            </td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="table3">
+                        <thead>
+                        <tr>
+                            <td>
+                                <img src="https://busulla.com/api/occupation/occupationimage?type=cover&imagepath=blockchain_eng.jpg" width="200px" height="100px">
+                            </td>
+                        </thead>
+                            <tbody>
+                                <tr>
+                                    <td><h4>Inxhinier/e i/e blockchain</h4><br/>
+                                        <button type="text" value="Me shume"> <a href="#" >Me shume</a> </button> 
+                                    </td>
+            
+                                </tr>
+                            </tbody>
+                        </tr>
+                    </table>
+                </td>    
+            </tr>
+        </table>
+    </div>
     </body>
 </html>
