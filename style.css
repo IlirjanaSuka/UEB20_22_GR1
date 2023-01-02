@@ -39,8 +39,8 @@ header{
     border-radius: 4px 4px 4px 4px;
    
 }
-.menu li:hover{
-    background: rgb(148, 105, 105);
+.menu1 li:hover{
+    background:none;
 }
 .menu li:hover a{
     color: rgb(183, 125, 125);
