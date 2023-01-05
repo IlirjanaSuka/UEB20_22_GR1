@@ -1,5 +1,5 @@
 body{
-    background-color: aliceblue;
+    background-color: white;
 
 }
 .signup-box{
@@ -47,7 +47,7 @@ input[type="button"]{
     height: 35px;
     margin-top: 20px;
     border:none;
-    background-color: #49c1a2;
+    background-color: rgb(79, 4, 4);
     color: white;
     font-size: 18px;
 
