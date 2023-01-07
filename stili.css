@@ -9,6 +9,9 @@ button {
     font-size: 10px;
     margin-left: 150px;
     border-radius: 15px 50px 30px;
+    color: white;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #e1ddc6, 0 0 30px #f4efd2, 0 0 40px #f4e9ad, 0 0 50px #f1e7b0, 0 0 75px #e9e1b5;
+             
     
 }
 .rcorners2{
@@ -73,6 +76,11 @@ button {
     from { opacity: 1; }
     to   { opacity: 0; }
   }
+
+  
+ 
+
+
 
   
  
