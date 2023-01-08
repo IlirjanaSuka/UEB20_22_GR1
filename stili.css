@@ -56,10 +56,6 @@ header{
     list-style: none;
     border-top: 1px solid rgb(255, 255, 255);
 }
-.li{
-   color: rgb(232, 26, 26);
-}
-
 
 .menu1 li{
     width: 100px;
@@ -212,6 +208,8 @@ ul li:hover ul.dropdown{
 
 .ta{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(113, 10, 10);
+    
 }
 
  .ta button a{
@@ -219,6 +217,7 @@ ul li:hover ul.dropdown{
     font-size: 16px;
     color:  black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
     
 }
 .ta button a:hover{
@@ -227,11 +226,11 @@ ul li:hover ul.dropdown{
 }
  .ta1{
     width: 10%;
-    height: 40%;
+    height: 50%;
      border: 2px solid rgb(113, 10, 10);
      margin-left: 100px; 
      position: absolute;
-     bottom: -20%;
+     bottom: -30%;
      left: 10%;
      transform: translate( 0, -5%);
      border-radius: 4px 4px 4px 4px;
@@ -245,6 +244,7 @@ ul li:hover ul.dropdown{
     width: 200px;
     height:140px;
  }
+ 
  .ta1 button{
     width: 100%;
     font-size: 13px;
@@ -256,12 +256,12 @@ ul li:hover ul.dropdown{
  }
  .ta2{
     width: 10%;
-    height: 40%;
+    height: 50%;
     border: 2px solid rgb(113, 10, 10);
     margin-right: 100px;
     margin-left: 100px;
     position: absolute;
-    bottom: -20%;
+    bottom: -30%;
     right: 60%;
     left: 36%;
     transform: translate( 0, -5%);
@@ -286,11 +286,11 @@ ul li:hover ul.dropdown{
 }
 .ta3{
     width: 10%;
-    height: 40%;
+    height: 50%;
     border: 2px solid  rgb(113, 10, 10);
     margin-right:100px; 
     position: absolute;
-    bottom: -20%;
+    bottom: -30%;
     right: 10%;
     transform: translate( 0, -5%);
     border-radius: 4px 4px 4px 4px;
@@ -321,302 +321,510 @@ ul li:hover ul.dropdown{
     position: absolute;
     left: 50%; 
     transform: translate(-50%, 0);
-    bottom: -35%;
+    bottom: -50%;
     
 }
-
-.table  a{
-    text-decoration: none;
-    font-size: 16px;
-    color:  black;
-    font-weight: bold;
-        
-    }
-.table  a:hover{
-    color:rgb(98, 46, 46);
-        
-    }
-.rib{
-    position: absolute;
-    left: 50%; 
-    transform: translate(-50%, 0);
-    bottom: -25%;
-    background-color:  rgb(113, 10, 10);
-    width: 100%;
-    height: 25%;
-    z-index: -1;
-}
-.table1{
-    width: 10%;
-    height: 30%;
-    border: 2px solid  rgb(113, 10, 10);
-    margin-left: 100px; 
-    position: absolute;
-    bottom: -75%;
-    left: 0;
-    transform: translate( 0, -5%);
-    border-radius: 4px 4px 4px 4px;
-    padding: 8px 12px;
-    box-shadow: 4px 4px rgb(113, 10, 10);
-    background-color: #fff;
-    }
-     
-.table2{
-    width:10%;
-    height: 30%;
-    border: 2px solid  rgb(113, 10, 10);
-    position: absolute;
-    bottom: -75%;
-    right: 75%;
-    left: 30%;
-    transform: translate( 0, -5%);
-    border-radius: 4px 4px 4px 4px;
-    padding: 8px 12px;
-    box-shadow: 4px 4px rgb(113, 10, 10);
-    background-color: #fff;
-    }
-   
-.table3{
-    width: 10%;
-    height: 30%;
-    border: 2px solid  rgb(113, 10, 10);
-    margin-right:100px; 
-    position: absolute;
-    bottom: -75%;
-    right: 60%;
-    left: 55%;
-    transform: translate( 0, -5%);
-    border-radius: 4px 4px 4px 4px;
-    padding: 8px 12px;
-    box-shadow: 4px 4px rgb(113, 10, 10);
-    background-color: #fff;
-    }
-.table4{
-    width: 10%;
-    height: 30%;
-    border: 2px solid  rgb(113, 10, 10);
-    margin-right:100px; 
-    position: absolute;
-    bottom: -75%;
-    right: 0;
-    transform: translate( 0, -5%);
-    border-radius: 4px 4px 4px 4px;
-    padding: 8px 12px;
-    box-shadow: 4px 4px rgb(113, 10, 10);
-    background-color: #fff;
-}
-.bot{
-    position: absolute;
-    left: 50%; 
-    transform: translate(-50%, 0);
-    bottom: -85%;
-    background-color:  rgb(113, 10, 10);
-    width: 100%;
-    height: 25%;
-    z-index: -1;
- }
-.bot a{
-    position: absolute;
-    left: 45%;
-    bottom: 25%; 
-    text-decoration: none;
-    color:rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 16px;
-          
-}
-.bot a:hover{
-     color:  rgb(183, 125, 125);
- }
-.advice{
-    position: absolute;
-    left: 20%;
-    transform: translate(-50%,-30%);
-    bottom: -150%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- 
-}
-.advice ul{
+.mid{
     list-style: none;
- }
-.advice1{
-    color:rgb(113, 10, 10);
-    font-size: 24px;
     font-weight: bold;
- }
-.advice2{
     color:rgb(113, 10, 10);
-    font-size: 20px;
-}
-.advice3{
-     color:rgb(113, 10, 10);
-     font-size: 18px;
- }
-.advice4{
-    color:rgb(113, 10, 10);
-     font-size: 18px;
- }
-.advice5{
-    color:rgb(113, 10, 10);
-font-size: 18px;
-}
-.advice .fa{
-     color:rgb(113, 10, 10);
-}
-.slide{
+    font-size: 16px;
     position: absolute;
-    right: 0%;
-    transform: translate(-20%,-40%);
-    bottom: -140%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 2px solid  rgb(113, 10, 10);
-    border-radius: 4px 4px 4px 4px;
-    padding: 8px 12px;
-    box-shadow: 4px 4px rgb(113, 10, 10);
+    left: 50%; 
+    transform: translate(-50%, 0);
+    bottom: -55%;
     
 }
-.show1{
-    color:rgb(113, 10, 10);
-    font-size: 20px;
-    animation: one 10s infinite;
-        
-}
-.show2{
-    color:rgb(113, 10, 10);
-    font-size: 20px;
+
+    .rcorners2{
+        border-radius: 15px 50px 30px;
+        padding: 20px; 
+        width: 200px;
+        height: 150px; 
+        box-shadow: 20px 5px 3px rgb(169, 166, 166) ;
+       border: solid;
+       border-color: black;
+       transform: scale(1);
+        transition: transform 2s;
+       transform: scale(0.9);
+        transition: transform 3s;
+    
+      }
+      .rcorners2:hover {
+        transform: scale(0.8);
+        background-color: rgb(129, 60, 60);
+      }
+      
+      
+      a{
+        color: white;
+       text-decoration: none;
+      }
+      h5{
+        color: gray;
+      }
+      /*div{
+    div{ 
+        background-color:rgb(79, 4, 4) ;
+        color: white;
+      }
+      } */
+    
+      legend{
+        color: rgb(79, 4, 4) ;
+      }
+    
+      button:hover {
+        background-color: rgb(188, 190, 194);
+    
+      }
+    
+      video{
+        border-radius:  35px 30px 30px;
+      }
+    
+      .fade-in {
+        opacity: 0;
+        animation: fadein 2s;
+        animation: fadein 5s;
+      }
+    
+      @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+      }
+    
+      .fade-out {
+        opacity: 1;
+        animation: fadeout 2s;
+        animation: fadeout 5s;
+      }
+    
+      @keyframes fadeout {
+        from { opacity: 1; }
+        to   { opacity: 0; }
+      }
+      img{
+        border-radius: 4px 4px 4px 4px;
+      }
+    
+      .h1{
+        text-align: center;
+      }
+    
+    
+      .table  a{
+        text-decoration: none;
+        font-size: 16px;
+        color:  rgb(113, 10, 10);
+        font-weight: bold;
             
-}
-.show3{
-    color:rgb(113, 10, 10);
-    font-size: 20px;
-}
-.slide ul{
-    height: 120px;
-    overflow: hidden;
-}
- @keyframes one{
-    50%{
-         margin-top: -50px;
         }
-    40%{
-        margin-top: -50px;
+     .bot a:hover{
+            color:  rgb(183, 125, 125);
         }
-    60%{
-        margin-top: -50px;
-         }
-           
+    .table  a:hover{
+        color:rgb(98, 46, 46);
+            
         }
-
-
-.read{
-    position: absolute;
-    font-size: 20px;
-    bottom: 0;
-    right: 0px;
-    left: 0;
-    margin-bottom: 2%;
-    margin-left: 10%;
+    .rib{
+        position: absolute;
+        left: 50%; 
+        transform: translate(-50%, 0);
+        bottom: -30%;
+        background-color:  rgb(113, 10, 10);
+        width: 100%;
+        height: 25%;
+        z-index: -1;
+    }
+    .table1{
+        width: 10%;
+        height: 30%;
+        border: 2px solid  rgb(113, 10, 10);
+        margin-left: 100px; 
+        position: absolute;
+        bottom: -90%;
+        left: 0;
+        transform: translate( 0, -5%);
+        border-radius: 4px 4px 4px 4px;
+        padding: 8px 12px;
+        box-shadow: 4px 4px rgb(113, 10, 10);
+        background-color: #fff;
+        }
+         
+    .table2{
+        width:10%;
+        height: 30%;
+        border: 2px solid  rgb(113, 10, 10);
+        position: absolute;
+        bottom: -90%;
+        right: 75%;
+        left: 30%;
+        transform: translate( 0, -5%);
+        border-radius: 4px 4px 4px 4px;
+        padding: 8px 12px;
+        box-shadow: 4px 4px rgb(113, 10, 10);
+        background-color: #fff;
+        }
+       
+    .table3{
+        width: 10%;
+        height: 30%;
+        border: 2px solid  rgb(113, 10, 10);
+        margin-right:100px; 
+        position: absolute;
+        bottom: -90%;
+        right: 60%;
+        left: 55%;
+        transform: translate( 0, -5%);
+        border-radius: 4px 4px 4px 4px;
+        padding: 8px 12px;
+        box-shadow: 4px 4px rgb(113, 10, 10);
+        background-color: #fff;
+        }
+    .table4{
+        width: 10%;
+        height: 30%;
+        border: 2px solid  rgb(113, 10, 10);
+        margin-right:100px; 
+        position: absolute;
+        bottom: -90%;
+        right: 0;
+        transform: translate( 0, -5%);
+        border-radius: 4px 4px 4px 4px;
+        padding: 8px 12px;
+        box-shadow: 4px 4px rgb(113, 10, 10);
+        background-color: #fff;
+    }
     
-}
-.read a{
-    text-decoration: none;
+    .bot{
+        position: absolute;
+        left: 50%; 
+        transform: translate(-50%, 0);
+        bottom: -100%;
+        background-color:  rgb(113, 10, 10);
+        width: 100%;
+        height: 25%;
+        z-index: -1;
+     }
+    .bot a{
+        position: absolute;
+        left: 45%;
+        bottom: 25%; 
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 16px;
+              
+    }
+    .bot a:hover{
+         color:  rgb(183, 125, 125);
+     }
+    .advice{
+        position: absolute;
+        left: 20%;
+        transform: translate(-50%,-30%);
+        bottom: -165%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .advice ul{
+        list-style: none;
+     }
+    .advice1{
+        color:rgb(113, 10, 10);
+        font-size: 24px;
+        font-weight: bold;
+     }
+    .advice2{
+        color:rgb(113, 10, 10);
+        font-size: 20px;
+    }
+    .advice3{
+         color:rgb(113, 10, 10);
+         font-size: 18px;
+     }
+    .advice4{
+        color:rgb(113, 10, 10);
+         font-size: 18px;
+     }
+    .advice5{
+        color:rgb(113, 10, 10);
+    font-size: 18px;
+    }
+    .advice .fa{
+         color:rgb(113, 10, 10);
+    }
+    .slide{
+        position: absolute;
+        right: 0%;
+        transform: translate(-20%,-40%);
+        bottom: -155%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: 2px solid  rgb(113, 10, 10);
+        border-radius: 4px 4px 4px 4px;
+        padding: 8px 12px;
+        box-shadow: 4px 4px rgb(113, 10, 10);
+       
+        
+    }
+    .show1{
+        color:rgb(113, 10, 10);
+        font-size: 20px;
+        animation: one 10s infinite;
+            
+    }
+    .show2{
+        color:rgb(113, 10, 10);
+        font-size: 20px;
+                
+    }
+    .show3{
+        color:rgb(113, 10, 10);
+        font-size: 20px;
+    }
+    .slide ul{
+        height: 120px;
+        overflow: hidden;
+        list-style: disc;
+    }
+     @keyframes one{
+        50%{
+             margin-top: -50px;
+            }
+        40%{
+            margin-top: -50px;
+            }
+        60%{
+            margin-top: -50px;
+             }
+               
+            }
+    
+    
+    .read{
+        position: absolute;
+        font-size: 20px;
+        bottom: 0;
+        right: 0px;
+        left: 0;
+        margin-bottom: 2%;
+        margin-left: 10%;
+        
+    }
+    .read a{
+        text-decoration: none;
+        color: rgb(113, 10, 10);
+    }
+    .read a:hover{
+        color: rgb(183, 125, 125);
+    }
+    .to{
+        list-style: none;
+        font-weight: bold;
+        color:rgb(113, 10, 10);
+        font-size: 24px;
+        position: absolute;
+        left: 50%; 
+        transform: translate(-50%, 0);
+        bottom: -180%;
+        
+    }
+#mm{
+        border-radius: 4px 4px 4px 4px;
+      }
+.qoute  a{
+        text-decoration: none;
+        font-size: 16px;
+        color:  rgb(113, 10, 10);
+        font-weight: bold;
+            
+        }
+.qoute i{
     color: rgb(113, 10, 10);
-}
-.read a:hover{
-    color: rgb(183, 125, 125);
-}
-
-
-
-
-.button {
-    background-color:rgb(79, 4, 4);
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-    margin-left: 150px;
-    border-radius: 15px 50px 30px;
-    color: white;
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #e1ddc6, 0 0 30px #f4efd2, 0 0 40px #f4e9ad, 0 0 50px #f1e7b0, 0 0 75px #e9e1b5;
-             
     
 }
-.rcorners2{
-    border-radius: 15px 50px 30px;
-    padding: 20px; 
-    width: 200px;
-    height: 150px; 
-    box-shadow: 20px 5px 3px rgb(169, 166, 166) ;
-   border: solid;
-   border-color: black;
-   transform: scale(0.9);
-    transition: transform 3s;
+     .qoute a:hover{
+            color:  rgb(129, 60, 60);
+        }
+    .q1{
+        width: 17%;
+        height: 30%;
+        border: 2px solid  rgb(113, 10, 10);
+        margin-left: 100px; 
+        position: absolute;
+        bottom: -225%;
+        left: -5%;
+        transform: translate( 0, -5%);
+        border-radius: 4px 4px 4px 4px;
+        padding: 8px 12px;
+        box-shadow: 4px 4px rgb(113, 10, 10);
+        background-color: #fff;
+        }
+         
+    .q2{
+        width: 17%;
+        height: 28%;
+        border: 2px solid  rgb(113, 10, 10);
+        position: absolute;
+        bottom: -225%;
+        right: 80%;
+        left: 22%;
+        transform: translate( 0, -5%);
+        border-radius: 4px 4px 4px 4px;
+        padding: 8px 12px;
+        box-shadow: 4px 4px rgb(113, 10, 10);
+        background-color: #fff;
+        }
+
+       
+    .q3{
+        width: 17%;
+        height: 30%;
+        border: 2px solid  rgb(113, 10, 10);
+        margin-right:100px; 
+        position: absolute;
+        bottom: -225%;
+        right: 80%;
+        left: 42%;
+        transform: translate( 0, -5%);
+        border-radius: 4px 4px 4px 4px;
+        padding: 8px 12px;
+        box-shadow: 4px 4px rgb(113, 10, 10);
+        background-color: #fff;
+        }
+    .q4{
+        width: 17%;
+        height: 30%;
+        border: 2px solid  rgb(113, 10, 10);
+        margin-right:100px; 
+        position: absolute;
+        bottom: -225%;
+        right: 70%;
+        left: 62%;
+        transform: translate( 0, -5%);
+        border-radius: 4px 4px 4px 4px;
+        padding: 8px 12px;
+        box-shadow: 4px 4px rgb(113, 10, 10);
+        background-color: #fff;
+    }
+    .q5{
+        width: 17%;
+        height: 30%;
+        border: 2px solid  rgb(113, 10, 10);
+        margin-right:100px; 
+        position: absolute;
+        bottom: -225%;
+        right: -5%;
+        transform: translate( 0, -5%);
+        border-radius: 4px 4px 4px 4px;
+        padding: 8px 12px;
+        box-shadow: 4px 4px rgb(113, 10, 10);
+        background-color: #fff;
+    }
+.footer{
     
-  }
-  .rcorners2:hover {
-    transform: scale(0.8);
-    background-color: rgb(129, 60, 60);
-  }
-
-  
-  
-  a{
-    color: white;
-   text-decoration: none;
-  }
-  h5{
-    color: gray;
-  }
-  /* div{
-    background-color:rgb(79, 4, 4) ;
-    color: white;
-  } */
-
-  legend{
-    color: rgb(79, 4, 4) ;
-  }
-
-  button:hover {
-    background-color: rgb(188, 190, 194);
-
-  }
-
-  video{
-    border-radius:  35px 30px 30px;
-  }
-
-  .fade-in {
-    opacity: 0;
-    animation: fadein 5s;
-  }
-  
-  @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-  }
-  
-  .fade-out {
-    opacity: 1;
-    animation: fadeout 5s;
-  }
-  
-  @keyframes fadeout {
-    from { opacity: 1; }
-    to   { opacity: 0; }
-  }
-
-  img{
-    border-radius: 15px 50px 30px;
-  }
-
-  .h1{
-    text-align: center;
-  }
-
-  .footer{
-    background-color: #333;
-  }
+        padding: 10px 0;
+        box-sizing: border-box;
+        background-color: rgb(113, 10, 10);
+        color: white;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-bottom: -190%;
+            
+          
+    }
+    .con{
+        max-width: 1300px;
+        margin: auto;
+    }
+    
+    ul{
+        list-style: none;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .footer-col{
+        width: 20%;
+        padding: 0 30px;
+        
+        
+    }
+    .footer-col h4{
+        font-size: 18px;
+        color: #fff;
+        text-transform: capitalize;
+        margin-bottom: 30px;
+        font-weight: 500;
+        position: relative;
+       
+        
+    }
+    .footer-col h4 a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .footer-col h4 a:hover{
+        color: rgb(183, 125, 125);
+    }
+    .footer-col h4::before{
+        content: ' ';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        background-color: #fff;
+        height: 2px;
+        box-sizing: border-box;
+        width: 80px;
+    }
+    .footer-col ul li:not(:last-child){
+        margin-bottom: 10px;
+       
+    
+    }
+    .footer-col ul li a{
+         font-size: 16px;
+         text-transform: capitalize;
+         color: #fff;
+         text-decoration: none;
+         font-weight: 300;
+         transition: all 0.3s ease;
+        margin-left: -15%;
+    }
+    .footer-col ul li a:hover{
+        color: rgb(183, 125, 125);
+        padding-left: 8px;
+    }
+    
+    .footer-col .social-links a{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: rgb(255,255,255,0.2);
+        margin:0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #fff;
+        transition: all 0.5s ease;
+       
+    }
+    .footer-col .social-links a:hover{
+        color: rgb(183, 125, 125);
+        background-color: #fff;
+    }
+    @media(max-width:767px){
+        .footer-col{
+            width: 50%;
+            margin-bottom: 30px;
+        }
+    }
+    @media(max-width:574px){
+        .footer-col{
+            width: 100%;
+        }
+    }
