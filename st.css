@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+:root{
+  --font: 'Poppins', sans-serif;
+  --color:rgb(96, 5, 5);
+  --bg-color: #f4f4f4;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+
+}
+.bg-text {
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+body{
+  font-family: var(--font);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--bg-color);
+  background-image: url(https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.swiper{
+  width: 100%;
+}
+
+.swiper-wrapper{
+  width: 100%;
+  height: 35em;
+  display: flex;
+  align-items: center;
+}
+
+.card{
+  width: 20em;
+  height: 90%;
+  background-color: #fff;
+  border-radius: 2em;
+  box-shadow: 0 0 2em rgba(0, 0, 0, .2);
+  padding: 2em 1em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 2em;
+}
+
+.swiper-slide:not(.swiper-slide-active){
+  filter: blur(1px);
+}
+
+.card__image{
+  width: 20em;
+  height: 11em;
+  padding: 1px;
+  margin-bottom: 2em;
+  margin-top: -33px;
+  border-radius: 2em;
+  
+}
+
+
+.card__image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2em;
+ 
+  
+ 
+}
+
+.card__content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card__title{
+  font-size: 1.5rem;
+  font-weight: 500;
+  position: relative;
+  bottom: .5em;
+}
+
+
+.card__text{
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1em 0;
+}
+
+.card__btn{
+  background-color: var(--color);
+  color: #fff;
+  font-size: .7em;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  padding: .5em;
+  border-radius: .5em;
+  margin-top: .5em;
+  cursor: pointer;
+}
+
+
+progress[value] {
+        width: 250px;
+        height: 20px;
+}
+progress {
+        accent-color:rgb(55, 6, 6);
+    }
+
+ul{
+    text-align: center;
+    list-style-type:none;
+    font-size: smaller;
+}
+h5{
+    color: rgb(138, 134, 134);
+    margin-top: 1em;
+}
