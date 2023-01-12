@@ -4,20 +4,27 @@
     <meta charset ="UTF-8">
     <meta http-equiv="X-UA-Compatible"content="IE=edge">
     <meta name="viewport"content="width=device-width,inital-scale=1.0">
+    <p style="font-size:50px;">Rreth Nesh</p>
    <title>Rreth Nesh</title>
+   <style>
+    body {background-color: rgb(112, 9, 9);}
+    h1   {color: rgb(112, 9, 9);}
+    p    {color: white;}
+    </style>
     </head>
-    <body>
-        <p>Roli dhe rëndësia e orientimit në karrierë
 
-        </p>
+    <body>
+        <p style="font-size:30px;">Roli dhe rëndësia e orientimit në karrierë</p>
+        
         <p>
             Orientimi në karrierë iu referohet shërbimeve  që synojnë të ndihmojnë individët e të gjitha moshave të marrin vendime në lidhje me shkollimin, zgjedhjen e profesionit dhe krijimin e karrierës.
             Duke  ditur rendesine e  orientimit ne karriere  “Find Your Way” ju ndihmon qe ta testoni veten tuaj ne fushat e profesioneve qe ju pelqeni dhe ta zgjedhni te duhuren.
              Kjo platforme  shërben si vendtakim për të gjithë nxënësit dhe studentët në mes vete dhe me punëdhënësit. Po ashtu,  Find Your Way lehtëson punën e nxenesve  duke iu ofruar atyre qasje në një numër të madh të temave për orientim në karrierë dhe në listën e të gjitha fakulteteve dhe profesioneve.
         </p>
-        <h1></h1>Disa nga mundesite qe ofron Find Your Way</h1>
-        <img src="medi.jpg"style="height:500px; width:500px">
+        <h1>Disa nga mundesite qe ofron Find Your Way</h1>
+        <img src="medi.jpg"style="height:650px; width:650px">
         <p>
+            <p style="font-size:30px;">Pamje nga ambienti yne</p>
         <video controls>
             <source src="m.mp4"
         </video>
