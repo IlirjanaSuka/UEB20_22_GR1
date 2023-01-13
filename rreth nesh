@@ -8,7 +8,7 @@
    <title>Rreth Nesh</title>
    <style>
     body {background-color: rgb(112, 9, 9);}
-    h1   {color: rgb(112, 9, 9);}
+    h1   {color: white(112, 9, 9);}
     p    {color: white;}
     </style>
     </head>
@@ -22,12 +22,22 @@
              Kjo platforme  shërben si vendtakim për të gjithë nxënësit dhe studentët në mes vete dhe me punëdhënësit. Po ashtu,  Find Your Way lehtëson punën e nxenesve  duke iu ofruar atyre qasje në një numër të madh të temave për orientim në karrierë dhe në listën e të gjitha fakulteteve dhe profesioneve.
         </p>
         <h1>Disa nga mundesite qe ofron Find Your Way</h1>
-        <img src="medi.jpg"style="height:650px; width:650px">
+        <img src="medi.jpg"style="height:550px; width:800px">
         <p>
             <p style="font-size:30px;">Pamje nga ambienti yne</p>
         <video controls>
             <source src="m.mp4"
+            <p></p>
         </video>
+        <h4 id="h"> Rina Imeri: </h4>
+        <p> <i>"Sherbimet te cilat i ofron kjo faqe jane thjeshte te mahnitshme."</i> </p>
+        <h4 id="h"> Kaja Hyseni: </h4>
+        <p> <i>"Nuk kam fjale per keshillat te cilat i kam marre ,jane te mrekullueshme!" </i></p>
+        <h4 id="h"> Elma Osmani: </h4>
+        <p> <i> "Fale kesaj faqeje une kam zgjedhur profesionin e duhur."</i> </p>
+        <h4 id="h"> Engjell Terrnava: </h4>
+        <p> <i>"Eshte faqja me e mire qe kam perdorur."</i> </p>
     </p>
+
     </body>
 </html>
