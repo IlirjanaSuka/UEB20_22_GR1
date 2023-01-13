@@ -8,7 +8,7 @@
    <title>Rreth Nesh</title>
    <style>
     body {background-color: rgb(112, 9, 9);}
-    h1   {color: white(112, 9, 9);}
+    h1   {color: white;}
     p    {color: white;}
     </style>
     </head>
