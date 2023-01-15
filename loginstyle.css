@@ -34,7 +34,7 @@
     cursor:pointer;
     background:transparent ;
     border:0;
-    outline: none;
+    outline:none;
     position: relative;
 }
 #btn{
@@ -48,14 +48,14 @@
     transition: .5s;
 }
 .input-group{
-    top:180px;
+    top:120px;
     position: absolute;
-    width:280px;
+    width: 340px;
     transition: .5s;
 }
 .input-field{
     width:100%;
-    padding: 10px 0 ;
+    padding: 15px 0 ;
     margin:5px 0;
     border-left: 0;
     border-top: 0;
@@ -66,29 +66,40 @@
 }
 .submit-btn{
     width:85%;
-    padding: 10px 30px;
+    padding: 10px 10px;
     cursor:pointer;
     display: block;
-    margin:auto;
+    margin:20px;
     background: linear-gradient(to right, #d18d8d, #780505);
     border:0;
     outline: none;
     border-radius: 30px;
 }
 .check-box{
-    margin: 30px 10px 30px 0;
+    margin: 10px 10px 10px 0;
+}
+p{
+    padding: 10px  10px ;
+    height: 12px;
+    
+
+}
+li{
+    text-decoration:underline;
 }
 span{
     color:#777 ;
     font-size: 12px;
-    bottom:68px ;
+    bottom:155px ;
     position: absolute;
 
 }
+
 #login{
     left:50px;
 }
 #register{
     left:450px;
+
 }
 
