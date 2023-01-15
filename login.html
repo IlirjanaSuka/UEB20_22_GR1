@@ -13,19 +13,23 @@
                     <button type="button" class="toggle-btn" onclick="login()" >Log In</button>
                     <button type="button" class="toggle-btn" onclick="register()">Register</button>
                 </div>
+            
                 <form id="login" class="input-group">
                     <input type="text" class="input-field" placeholder="User Name" required>
                     <input type="password" class="input-field" placeholder="Password" required>
                     <input type="checkbox" class="check-box"><span>Remember Password</span> 
                     <button type="submit" class="submit-btn">Log in</button>
+                       <p>Don't have an account?</p>
+                     <div id="button" class="toggle-btn" onclick="register()"> 
+                       <ul> <li>  Register </li></ul></div>
                 </form>
+               
                 <form id="register" class="input-group">
                     <input type="text" class="input-field" placeholder="First Name" required>
                     <input type="text" class="input-field" placeholder="Last Name" required>
                     <input type="email" class="input-field" placeholder="Email" required>
                     <input type="password" class="input-field" placeholder="Password" required>
                     <input type="password" class="input-field" placeholder=" Confirm Password" required>
-                    <input type="checkbox" class="check-box"><span>I agree to the temrs and conditions</span> 
                     <button type="submit" class="submit-btn">Register</button>
                 </form>
             </div>
