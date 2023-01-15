@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+      
     <meta charset ="UTF-8">
     <meta http-equiv="X-UA-Compatible"content="IE=edge">
     <meta name="viewport"content="width=device-width,inital-scale=1.0">
@@ -11,9 +12,11 @@
     h1   {color: white;}
     p    {color: white;}
     </style>
+    
     </head>
 
     <body>
+        
         <p style="font-size:30px;">Roli dhe rëndësia e orientimit në karrierë</p>
         
         <p>
@@ -29,15 +32,23 @@
             <source src="m.mp4"
             <p></p>
         </video>
+        <div class="text-box">
+            <span>CHOOSE</span>
+            <span>THE</span>
+            <span>BEST</span>
+            <span>WAY</span>
+        </div>
         <h4 id="h"> Rina Imeri: </h4>
         <p> <i>"Sherbimet te cilat i ofron kjo faqe jane thjeshte te mahnitshme."</i> </p>
         <h4 id="h"> Kaja Hyseni: </h4>
         <p> <i>"Nuk kam fjale per keshillat te cilat i kam marre ,jane te mrekullueshme!" </i></p>
         <h4 id="h"> Elma Osmani: </h4>
         <p> <i> "Fale kesaj faqeje une kam zgjedhur profesionin e duhur."</i> </p>
-        <h4 id="h"> Engjell Terrnava: </h4>
+        <h4 id="h"> Engjell Mehmeti: </h4>
         <p> <i>"Eshte faqja me e mire qe kam perdorur."</i> </p>
     </p>
+  
+
 
     </body>
 </html>
