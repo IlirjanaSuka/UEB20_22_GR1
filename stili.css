@@ -21,12 +21,65 @@ body {
     flex-direction: column;
     
 } 
-@media only screen and(min-width:768px){
-    body{
-        display: block;
+@media screen and (max-width: 1024px){
+    .banner-area{
+        width: 85vw;
+    }
+    .logo{
+        height: 26vmin;
+        width: 26vmin;
+        font-size: 12px;
+    }
+    .menu{
+        font-size: 20px;
+    }
+    .menu1{
+        font-size: 20px;
+    }
+    .search{
+        font-size: 20px ;
     }
 }
-
+@media screen and (max-width: 768px){
+    .banner-area{
+        width: 90vw;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .logo{
+        height: calc(50% - 40%);
+        width: 30vmin;
+        font-size: 14px;
+    }
+    .menu{
+        font-size: 10pxpx;
+    }
+    .menu1{
+        font-size: 10pxpx;
+    }
+    .search{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 480px){
+    .banner-area{
+        gap: 15px;
+    }
+    .logo{
+        height: 100%;
+        width: 25vmin;
+        font-size: 8px;
+    }
+    .menu{
+        font-size: 20px;
+    }
+    .menu1{
+        font-size: 20px;
+    }
+    .search{
+        font-size:  8px;
+    }
+}
 header{
     padding: 10px 30px;
 }
