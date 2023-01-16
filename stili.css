@@ -3,11 +3,15 @@
 *{
     box-sizing: border-box;
     font-family: 'Popins' sans-serif;
+   
 }
 
 .banner-area{
     background-color: rgb(113, 10, 10);
     height: 15vh;
+    display: grid;
+    
+
 }
 
 
@@ -21,8 +25,10 @@ body {
     flex-direction: column;
     
 } 
+
 header{
     padding: 10px 30px;
+  
 }
 #ww {
     position: absolute;
@@ -32,11 +38,13 @@ header{
     top: 50%;
     width: 40%;
     height: 60%; 
+    
 }
 .menu{
     width: 45%;
     float: right;
     list-style: none;
+    
 }
 
 .menu li{
@@ -149,6 +157,7 @@ ul li ul.dropdown{
 ul li:hover ul.dropdown{
     display: block;
 }
+
 .logo{
    text-decoration: none;
    color: rgb(255, 255, 255);
@@ -157,8 +166,17 @@ ul li:hover ul.dropdown{
    padding: 10px 20px;
    width: 20%;
    float: left;
+   grid-column: 3/9;
 }
+@media screen and (max-width: 480px){
+    .logo{
+        grid-column: 1 /12;
 
+    }
+    .menu, .menu1, .search{
+        grid-column: 12 / 12;
+    }
+}
 .welcome-text{
     position: absolute;
     top: 40%;
@@ -352,98 +370,97 @@ ul li:hover ul.dropdown{
     
 }
 
-    .rcorners2{
-        border-radius: 15px 50px 30px;
-        padding: 20px; 
-        width: 200px;
-        height: 150px; 
-        box-shadow: 20px 5px 3px rgb(169, 166, 166) ;
-       border: solid;
-       border-color: black;
-       transform: scale(1);
-        transition: transform 2s;
-       transform: scale(0.9);
-        transition: transform 3s;
+.rcorners2{
+    border-radius: 15px 50px 30px;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+    box-shadow: 20px 5px 3px rgb(169, 166, 166) ;
+    border: solid;
+    border-color: black;
+    transform: scale(1);
+    transition: transform 2s;
+    transform: scale(0.9);
+    transition: transform 3s;
     
-      }
-      .rcorners2:hover {
-        transform: scale(0.8);
-        background-color: rgb(129, 60, 60);
-      }
-      
-      
-      a{
-        color: white;
-       text-decoration: none;
-      }
-      h5{
-        color: gray;
-      }
-      /*div{
+}
+.rcorners2:hover {
+    transform: scale(0.8);
+    background-color: rgb(129, 60, 60);
+} 
+a{
+    color: white;
+    text-decoration: none;
+}
+h5{
+    color: gray;
+}
+/*div{
     div{ 
-        background-color:rgb(79, 4, 4) ;
-        color: white;
-      }
-      } */
+    background-color:rgb(79, 4, 4) ;
+    color: white;
+    }
+} */
     
-      legend{
-        color: rgb(79, 4, 4) ;
-      }
+legend{
+    color: rgb(79, 4, 4) ;
+}
     
-      button:hover {
-        background-color: rgb(188, 190, 194);
+button:hover {
+    background-color: rgb(188, 190, 194);
     
-      }
+}
     
-      video{
-        border-radius:  35px 30px 30px;
-      }
+video{
+    border-radius:  35px 30px 30px;
+}
     
-      .fade-in {
-        opacity: 0;
-        animation: fadein 2s;
-        animation: fadein 5s;
-      }
+.fade-in {
+    opacity: 0;
+    animation: fadein 2s;
+    animation: fadein 5s;
+    }
     
-      @keyframes fadein {
-        from { opacity: 0; }
-        to   { opacity: 1; }
-      }
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
     
-      .fade-out {
-        opacity: 1;
-        animation: fadeout 2s;
-        animation: fadeout 5s;
-      }
+.fade-out {
+    opacity: 1;
+    animation: fadeout 2s;
+    animation: fadeout 5s;
+}
     
-      @keyframes fadeout {
-        from { opacity: 1; }
-        to   { opacity: 0; }
-      }
-      img{
-        border-radius: 4px 4px 4px 4px;
-      }
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+ }
+img{
+    border-radius: 4px 4px 4px 4px;
+}
     
-      .h1{
-        text-align: center;
-      }
-    
-    
-      .table  a{
-        text-decoration: none;
-        font-size: 16px;
-        color:  rgb(113, 10, 10);
-        font-weight: bold;
+.h1{
+    text-align: center;
+}
+
+.table  a{
+    text-decoration: none;
+    font-size: 16px;
+    color:  rgb(113, 10, 10);
+    font-weight: bold;
             
-        }
-     .bot a:hover{
-            color:  rgb(183, 125, 125);
-        }
-    .table  a:hover{
-        color:rgb(98, 46, 46);
+}
+.bot a:hover{
+    color:  rgb(183, 125, 125);
+ }
+    
+.table  a:hover{
+    color:rgb(98, 46, 46);
             
-        }
-    .rib{
+}
+
+.rib{
         position: absolute;
         left: 50%; 
         transform: translate(-50%, 0);
@@ -634,7 +651,7 @@ ul li:hover ul.dropdown{
     .read a:hover{
         color: rgb(183, 125, 125);
     }
-    .to{
+.to{
         list-style: none;
         font-weight: bold;
         color:rgb(113, 10, 10);
@@ -645,104 +662,113 @@ ul li:hover ul.dropdown{
         bottom: -180%;
         
     }
-#mm{
-        border-radius: 4px 4px 4px 4px;
-        gap: 5px;
-      }
-.qoute  a{
-        text-decoration: none;
-        font-size: 16px;
-        color:  rgb(113, 10, 10);
-        font-weight: bold;
-            
-        }
-.qoute i{
-    color: rgb(113, 10, 10);
-    bottom: -20px;
+.qoute{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(113, 10, 10);
+        position: relative;
+        height: 400px;
+        width: 100%;
+        margin-top: 135%;
+        
+    }
+    .swiper{
+        width: 950px;
+    }
+    .card{
+        position: relative;
+        background: white;
+        border-radius: 20px;
+        height: 400px;
+        margin: 20px 0;
+        border: 2px solid white;
+    }
+    .card::before{
+        content: "";
+        position: absolute;
+        height: 40%;
+        width: 100%;
+        background:rgb(113, 10, 10);
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 0px 3px 3px 0px rgb(113, 10, 10);
+    }
+    .card .card-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        position: relative;
+        z-index: 1;
+
+    }
+    section .card .image{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        padding: 3px;
+        background:rgb(255, 255, 255);
+        margin-top: 30px;
+        border: 2px solid white;
+        box-shadow: 0px 3px 5px 4px rgb(113, 10, 10);
     
-}
-     .qoute a:hover{
-            color:  rgb(129, 60, 60);
-        }
-    .q1{
-        width: 17%;
-        height: 30%;
-        border: 2px solid  rgb(113, 10, 10);
-        margin-left: 100px; 
-        position: absolute;
-        bottom: -228%;
-        left: -5%;
-        transform: translate( 0, -5%);
-        border-radius: 4px 4px 4px 4px;
-        padding: 8px 12px;
-        box-shadow: 4px 4px rgb(113, 10, 10);
-        background-color: #fff;
-        }
-         
-    .q2{
-        width: 17%;
-        height: 30%;
-        border: 2px solid  rgb(113, 10, 10);
-        position: absolute;
-        bottom: -228%;
-        right: 80%;
-        left: 22%;
-        transform: translate( 0, -5%);
-        border-radius: 4px 4px 4px 4px;
-        padding: 8px 12px;
-        box-shadow: 4px 4px rgb(113, 10, 10);
-        background-color: #fff;
-        }
-
-    .q3{
-        width: 17%;
-        height: 30%;
-        border: 2px solid  rgb(113, 10, 10);
-        position: absolute;
-        bottom: -228%;
-        right: 80%;
-        left: 42%;
-        transform: translate( 0, -5%);
-        border-radius: 4px 4px 4px 4px;
-        padding: 8px 12px;
-        box-shadow: 4px 4px rgb(113, 10, 10);
-        background-color: #fff;
-        }
-      
-    .q4{
-        width: 17%;
-        height: 30%;
-        border: 2px solid  rgb(113, 10, 10);
-        margin-right:100px; 
-        position: absolute;
-        bottom: -228%;
-        right: 70%;
-        left: 62%;
-        transform: translate( 0, -5%);
-        border-radius: 4px 4px 4px 4px;
-        padding: 8px 12px;
-        box-shadow: 4px 4px rgb(113, 10, 10);
-        background-color: #fff;
     }
-    .q5{
-        width: 17%;
-        height: 30%;
-        border: 2px solid  rgb(113, 10, 10);
-        margin-right:100px; 
-        position: absolute;
-        bottom: -228%;
-        right: -5%;
-        transform: translate( 0, -5%);
-        border-radius: 4px 4px 4px 4px;
-        padding: 8px 12px;
-        box-shadow: 4px 4px rgb(113, 10, 10);
-        background-color: #fff;
+    section .card .image img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
     }
-.qoute p{
-    font-size: 14px;
-    row-gap: 2px;
+    .card .name-profession{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        color: black;
+    }
+    .name-profession .name{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .name-profession .name a{
+        font-size: 20px;
+        font-weight: 600;
+        color: rgb(113, 10, 10);
+        text-decoration: none;
+    }
+    .name-profession .name a:hover{
+        color: rgb(183, 125, 125);
+    }
+    .name-profession .profession{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+.swiper-pagination{
+        position: absolute;
+        top: 410px;
+     
+    }
+.swiper-pagination-bullet{
+        height: 4px;
+        width: 26px;
+        border-radius: 25px;
+        background:white;
+    }
 
-}
+.swiper-button-next, .swiper-button-prev{
+        opacity: 0.7;
+        transition: all 0.3s ease;
+        
+    }
+.swiper-button-next::after, .swiper-button-prev::after{
+        color: white;
+    }
+.swiper-button-next:hover, .swiper-button-prev:hover{
+        opacity: 1;
+        color: rgb(255, 255, 255);
+    }
+
 .wrapper2{
     position: absolute;
     width: 80vw;
@@ -752,7 +778,7 @@ ul li:hover ul.dropdown{
     display: flex;
     justify-content: space-around;
     gap: 10px;
-    top: 380%;
+    top: 390%;
    
     
 }
@@ -773,7 +799,7 @@ ul li:hover ul.dropdown{
 }
 .para{
     color: rgb(113, 10, 10);
-    top: -65%;
+    top: -55%;
     text-align: center;
     font-weight: bold;
     font-size: 24px;
@@ -854,11 +880,9 @@ span.text a:hover{
         background-color: rgb(113, 10, 10);
         color: white;
         position: flex;
-        bottom: 0;
         left: 0;
         right: 0;
-        margin-top: 210%;
-            
+        margin-top: 50%;
           
     }
     .con{
