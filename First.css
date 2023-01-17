@@ -44,7 +44,7 @@ a{
     height:500px;
     position: relative;
     margin: 6% auto;
-    background: rgba(255, 255, 255, 0.141);
+    background: rgba(255, 255, 255, 0.207) ;
     padding: 5px;
     overflow: hidden;
     border-radius: 10%;
@@ -54,7 +54,7 @@ a{
     width: 220px;
     margin:35px auto ;
     position: relative;
-    box-shadow: 0px 0px 4px 4px rgb(235, 194, 194) ;
+    box-shadow: 0px 0px 0px 1px rgb(235, 194, 194) ;
     border-radius:30px;
     color: #fff;
 }
