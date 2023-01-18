@@ -3,15 +3,9 @@
 *{
     box-sizing: border-box;
     font-family: 'Popins' sans-serif;
+    text-decoration: none;
    
 }
-
-.banner-area{
-    background-color: rgb(113, 10, 10);
-    height: 15vh;
-    display: grid;
-}
-
 
 body {
     margin: 0;
@@ -24,11 +18,6 @@ body {
     background-color: rgba(128, 128, 128, 0.059) ;
     
 } 
-
-header{
-    padding: 10px 30px;
-  
-}
 #ww {
     position: absolute;
     transform:translateY(-50%);
@@ -39,142 +28,85 @@ header{
     height: 60%; 
     
 }
-.menu{
-    width: 45%;
-    float: right;
-    list-style: none;
-    
+
+.navbar{
+    background-color:rgb(113, 10, 10);
+    margin: 0;
 }
 
-.menu li{
-    width: 100px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 13px;
-    float: right;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 4px 4px 4px 4px;
-   
+.code{
+    margin-top: -50px;
+     width: 0px;
+     margin-left: 50px;
+        
+    
 }
-.menu1 li:hover{
-    background:none;
+.code a{
+    text-decoration: none;
+    color: #fff; 
+    font-weight: 500;
+    font-family: big john;
+    font-size: 24px; 
+  
 }
-.menu li:hover a{
+.collapse .nav-item{
+    margin-left: 0;
+    margin-top: 50px;
+    gap: 25px;
+    padding: 6px 20px;
+    border-top: 2px solid #fff;
+    
+}
+.collapse a{
+    color: #fff;
+    font-weight: 200;
+    background: rgb(113, 10, 10);
+    font-size: 16px;
+    font-family: baloo;
+}
+.collapse a:hover{
     color: rgb(183, 125, 125);
 }
-.menu li a{
-    text-decoration: none;
-    font-family: baloo;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
+.dropdown-item{
+    background: rgb(113, 10, 10);
 }
-.menu1{
-    width: 45%;
-    float: left;
+.dropdown-menu{
     list-style: none;
-    border-top: 1px solid rgb(255, 255, 255);
-    
-   
-}
-
-.menu1 li{
-    width: 100px;
-    height: 100px;
     margin-right: 30px;
     line-height: 30px;
+    
+}
+.dropdown-menu li{
+    width: 100%;
     text-align: left;
     color: rgb(255, 255, 255);
-    font-size: 13px;
+    font-size: 10px;
     float: left;
     left: 10;
 }
-.menu1 li:hover{
-    background:none;
-}
-.menu1 li:hover a{
+.dropdown-menu .dropdown-item:hover{
     color: rgb(183, 125, 125);
 }
-.menu1 li a{
-    text-decoration: none;
-    font-family: baloo;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
+.dropdown-menu a:hover {
+    color: rgb(183, 125, 125);
 }
-.menu1 .fa{
-    margin-right: 8px;
-}
-.search{
-    float: right;
-   
-}
-input[type=text]{
-    border: none;
-    right: 5%;
-    padding: 3px;
-    margin-top: -15px;
-    margin-right: 5px;
-    width: 170px;
-    height: 20px;
-    border-radius: 4px 4px 4px 4px;
-    
-}
-.search button{
+.d-flex a{
     float: right;
     padding: 6px 6px;
-    margin-top: -3px;
-    margin-right: 1px;
+    margin-top: 0px;
     background: rgb(113, 10, 10);
     color: #fff;
-    font-size: 13px;
-    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 6px 12px;
     cursor: pointer;
+    text-decoration: none;
 }
-.search button:hover{
+.d-flex a:hover{
     color:  rgb(183, 125, 125);
     background-color: rgb(113, 10, 10);
-}
-
-.dropdown li{
-    display: block;
-    font-size: 12px;
-    line-height: 1.5;
-    text-align: left;
-   
-}
-ul li ul.dropdown{
-    width: 10%;
-    position: absolute;
-    display: none;
-    padding: 8px 14px;
-    margin: 0;
-    border-radius: 0px 0px 4px 4px;
-    background-color:  rgb(113, 10, 10);
-    z-index: 1;
-}
-ul li:hover ul.dropdown{
-    display: block;
-}
-
-.logo{
-   text-decoration: none;
-   color: rgb(255, 255, 255);
-   font-size: 25px;
-   font-family: big john; 
-   padding: 10px 20px;
-   width: 20%;
-   float: left;
-   grid-column: 3/9;
-}
-@media screen and (max-width: 480px){
-    .logo{
-        grid-column: 1 /12;
-
-    }
-    .menu, .menu1, .search{
-        grid-column: 12 / 12;
-    }
 }
 .welcome-text{
     position: absolute;
@@ -285,6 +217,9 @@ ul li:hover ul.dropdown{
     margin-top: 0;
     margin-bottom: 25px;
     position: relative;
+    font-family: 'Popins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
     top: -200px;
     color: rgb(113, 10, 10);
 }
@@ -399,18 +334,64 @@ img{
     
 .h1{
     text-align: center;
+    font-size: 16px;
+    font-weight: bold;
 }
 
-.table  a{
+.contan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.rowa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cola, .cola {
+    width: 100%;
+}
+.cadr {
+    position: relative;
+    background: white;
+    border-radius: 20px;
+    height: 260px;
+    width: 220px;
+    margin:0px 70px;
+    border: 2px solid rgb(113, 10, 10);
+    display: flex;
+    box-shadow: 4px 4px rgb(113, 10, 10);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translate( 0, -5%);
+    padding: 8px 12px;
+    margin-top: 230px;
+    
+}
+
+.cadr .cardimgto {
+    width: 160px;
+    height: 150px;
+    margin-top: -40px;
+    border-radius: 50%;
+    border: 2px solid rgb(113, 10, 10);
+}
+.cadr .btn3 {
+    background-color: #fff;
     text-decoration: none;
     font-size: 16px;
-    color:  rgb(113, 10, 10);
+    color:   rgb(113, 10, 10);
+    text-align: center;
     font-weight: bold;
-            
+    
 }
-.table  a:hover{
+.cadr .btn3:hover{
     color: rgb(183, 125, 125);
-            
 }
 
 .rib{
@@ -423,76 +404,6 @@ img{
         height: 25%;
         z-index: -1;
     }
-    .table1{
-        width: 10%;
-        height: 30%;
-        border: 2px solid  rgb(113, 10, 10);
-        margin-left: 100px; 
-        position: absolute;
-        bottom: -90%;
-        left: 0;
-        transform: translate( 0, -5%);
-        border-radius:15px;
-        padding: 8px 12px;
-        box-shadow: 4px 4px rgb(113, 10, 10);
-        background-color: #fff;
-        }
-         
-    .table2{
-        width:10%;
-        height: 30%;
-        border: 2px solid  rgb(113, 10, 10);
-        position: absolute;
-        bottom: -90%;
-        right: 75%;
-        left: 30%;
-        transform: translate( 0, -5%);
-        border-radius:15px;
-        padding: 8px 12px;
-        box-shadow: 4px 4px rgb(113, 10, 10);
-        background-color: #fff;
-        }
-        .table2 img{
-            margin-bottom: 23px;
-        }
-    .table2 h4{
-        margin-top: 10px;
-        margin-bottom: 30px;
-    }
-       
-    .table3{
-        width: 10%;
-        height: 30%;
-        border: 2px solid  rgb(113, 10, 10);
-        margin-right:100px; 
-        position: absolute;
-        bottom: -90%;
-        right: 60%;
-        left: 55%;
-        transform: translate( 0, -5%);
-        border-radius:15px;
-        padding: 8px 12px;
-        box-shadow: 4px 4px rgb(113, 10, 10);
-        background-color: #fff;
-        }
-    .table4{
-        width: 10%;
-        height: 30%;
-        border: 2px solid  rgb(113, 10, 10);
-        margin-right:100px; 
-        position: absolute;
-        bottom: -90%;
-        right: 0;
-        transform: translate( 0, -5%);
-        border-radius:15px;
-        padding: 8px 12px;
-        box-shadow: 4px 4px rgb(113, 10, 10);
-        background-color: #fff;
-    }
-    .table img {
-        border-radius: 15px;
-    }
-    
     .bot{
         position: absolute;
         left: 48%; 
@@ -636,11 +547,15 @@ img{
         position: relative;
         height: 400px;
         width: 100%;
-        margin-top: 77%;
-        
-    }
+        margin-top: 45%;
+}   
+.swiper-slide{
+     border-radius: 50% 20px 20px 20px;
+}     
+
     .swiper{
         width: 950px;
+
     }
     .card{
         position: relative;
@@ -656,7 +571,7 @@ img{
         height: 40%;
         width: 100%;
         background:rgb(113, 10, 10);
-        border-radius: 20px 20px 20px 20px;
+        border-radius: 0px 0px 20px 20px;
         box-shadow: 0px 3px 0px 0px rgb(113, 10, 10);
     }
     .card .card-content{
@@ -784,7 +699,12 @@ span.num{
 span.text{
     font-size: 1em;
     text-align: center;
+    text-decoration: none;
+    list-style: none;
     
+}
+.container2 a{
+    text-decoration: none;
 }
 span.text a{
     color:  rgb(113, 10, 10);
@@ -839,109 +759,77 @@ span.text a:hover{
         font-size: 12px;
     }
 }
+p{
+    font-size:15px;
+    font-family:"Nunito Sans", sans-serif ;
+    color:white;
+    font-weight:400;
+    line-height:25px;
+    margin: 0 0 15px 0;
+
+}
+
+.col-lg-2  a{
+    text-decoration: none;
+}
+.col-lg-3 a{
+    text-decoration: none;
+}
+.col-lg-2 ul{
+    padding-left: 0;
+}
+
+
 .footer{
+    background-color: rgb(113, 10, 10);
+    padding-top:70px;
+    margin-top: 700px;
+}
+.footer-about{
+    margin-bottom:30px ;
+}
+.footer-about .logo{
+        padding-bottom: 70px;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-family: sans-serif; 
+        width: fit-content;
+}
+.footer-about p{
+    color:white;
+    margin-bottom:30px;
+}
+.footer-widget{
+    margin-bottom: 30px;
+}
+.footer-widget h6{
+    color:white;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom:20px ;
+}
+.footer-widget ul li{
+    line-height:36px ;
+    list-style: none;
     
-        padding: 10px 0;
-        box-sizing: border-box;
-        background-color: rgb(113, 10, 10);
-        color: white;
-        position: flex;
-        left: 0;
-        right: 0;
-        margin-top: 50%;
-          
-    }
-    .con{
-        max-width: 1300px;
-        margin: auto;
-    }
-    
-    ul{
-        list-style: none;
-    }
-    .row{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .footer-col{
-        width: 20%;
-        padding: 0 50px;
-        
-        
-    }
-    .footer-col h4{
-        font-size: 18px;
-        color: #fff;
-        text-transform: capitalize;
-        margin-bottom: 30px;
-        font-weight: 500;
-        position: relative;
-        
-    }
-    .footer-col h4 a{
-        color: #fff;
-        text-decoration: none;
-    }
-    .footer-col h4 a:hover{
-        color: rgb(183, 125, 125);
-    }
-    .footer-col h4::before{
-        content: ' ';
-        position: absolute;
-        left: 0;
-        bottom: -10px;
-        background-color: #fff;
-        height: 2px;
-        box-sizing: border-box;
-        width: 80px;
-    }
-    .footer-col ul li:not(:last-child){
-        margin-bottom: 10px;
-       
-    
-    }
-    .footer-col ul li a{
-         font-size: 16px;
-         text-transform: capitalize;
-         color: #fff;
-         text-decoration: none;
-         font-weight: 300;
-         transition: all 0.3s ease;
-        margin-left: -15%;
-    }
-    .footer-col ul li a:hover{
-        color: rgb(183, 125, 125);
-        padding-left: 8px;
-    }
-    
-    .footer-col .social-links a{
-        display: inline-block;
-        height: 40px;
-        width: 40px;
-        background-color: rgb(255,255,255,0.2);
-        margin:0 10px 10px 0;
-        text-align: center;
-        line-height: 40px;
-        border-radius: 50%;
-        color: #fff;
-        transition: all 0.5s ease;
-       
-    }
-    .footer-col .social-links a:hover{
-        color: rgb(183, 125, 125);
-        background-color: #fff;
-    }
-    @media(max-width:767px){
-        .footer-col{
-            width: 50%;
-            
-        }
-    }
-    @media(max-width:574px){
-        .footer-col{
-            width: 100%;
-        
-        }
-    }
+
+}
+.footer-widget ul li a{
+    color: aliceblue;
+    font-size: 15px;
+}
+.footer-widget ul li a:hover{
+    color:rgb(12, 97, 172)
+}
+.footer-copyright-text{
+    border-top: 1px solid rgba(255,255, 255, 0.1);
+    padding: 20px 0;
+    margin-top:40px ;
+}
+.footer-copyright-text p{
+    color:white;
+    margin-bottom:0 ;
+}
     
