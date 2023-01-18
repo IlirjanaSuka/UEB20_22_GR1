@@ -11,3 +11,7 @@ function login(){
     y.style.left="450px";
     z.style.left="0px";
 }
+
+
+const audio = new Audio();
+audio.src = ".click.mp3";
