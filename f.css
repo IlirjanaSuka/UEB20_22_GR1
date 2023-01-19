@@ -57,7 +57,7 @@ ul{
 
 }
 .footer-widget ul li a{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-size: 15px;
 }
 .footer-widget ul li a:hover{
@@ -66,9 +66,38 @@ ul{
 .footer-copyright-text{
     border-top: 1px solid rgba(255,255, 255, 0.1);
     padding: 20px 0;
-    margin-top:40px ;
+    margin-top:5px ;
 }
 .footer-copyright-text p{
     color:white;
     margin-bottom:0 ;
 }
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box .content{
+    margin:20px 0 0 0 ;
+}
+#email{
+    color: rgb(255, 255, 255);
+}
+#msg{
+    color:rgb(255, 255, 255)
+}
+.content h6{
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom:20px ;
+}
+
+
+
+
