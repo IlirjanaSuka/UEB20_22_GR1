@@ -145,7 +145,7 @@ const getCardContent = (title, type) => {
           -Mund t'i jep një kuptim më të thellë asaj që do të thotë të jeshë një profesionist, së bashku me një vlerësim më të madh të implikimeve dhe ndikimeve të punës tuaj.<br>
           -Mund të çojë në rritjen e besimit të publikut tek profesionistët individualë dhe profesionin e tyre si një tërësi.<br>
          <br>
-        Referenca:https://busulla.com/advise/fa1fc354-26bb-42e3-a509-34e81ab4202c
+        Referenca:https://busulla.com/advise/5b074ddd-4c4d-4bc3-9f4d-c27b72c4aca0
        </p>`;
     }
     return `
