@@ -350,6 +350,13 @@ img{
     justify-content: center;
     align-items: center;
 }
+.seperate h4{
+    text-align: center;
+    color: rgb(113, 10, 10);
+    padding: 140px;
+    font-size: 24px;
+    font-weight: bold;
+}
 
 .cola, .cola {
     width: 100%;
@@ -369,7 +376,7 @@ img{
     align-items: center;
     transform: translate( 0, -5%);
     padding: 8px 12px;
-    margin-top: 230px;
+    margin-top: -90px;
     
 }
 
@@ -548,12 +555,12 @@ img{
         width: 100%;
         margin-top: 45%;
 }   
+
 .swiper-wrapper .card{
     border-radius: 20px 20px 20px 20px;
     border: 3px solid white;
   
-}   
-
+}
     .swiper{
         width: 950px;
 
@@ -564,7 +571,7 @@ img{
         border-radius: 20px;
         height: 400px;
         margin: 20px 0;
-        border: 2px solid white;
+        border: 3px solid white;
     }
     .card::before{
         content: "";
@@ -572,7 +579,7 @@ img{
         height: 40%;
         width: 100%;
         background:rgb(113, 10, 10);
-        border-radius: 0px 0px 20px 20px;
+        border-radius: 20px 20px 20px 20px;
         box-shadow: 0px 3px 0px 0px rgb(113, 10, 10);
     }
     .card .card-content{
@@ -719,6 +726,7 @@ span.text a:hover{
     color: rgb(183, 125, 125);
 }
 
+
 @media screen and (max-width: 1024px){
     .wrapper2{
         width: 85vw;
@@ -822,7 +830,7 @@ p{
     font-size: 15px;
 }
 .footer-widget ul li a:hover{
-    color:rgb(12, 97, 172)
+    color: rgb(183, 125, 125);
 }
 .footer-copyright-text{
     border-top: 1px solid rgba(255,255, 255, 0.1);
