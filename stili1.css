@@ -1,3 +1,15 @@
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+   
+    border-radius: 10px;
+    
+}
+::-webkit-scrollbar-thumb{
+    background:rgba(113, 10, 10);
+    border-radius: 10px;
+}
 
 .menu{
     width: 45%;
