@@ -6,7 +6,8 @@
 .login{
     height: 100%;
     width: 100% ;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(image6.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(https://cdn1.vectorstock.com/i/1000x1000/79/45/science-technology-engineering-and-math-colored-vector-22767945.jpg
+);
     background-position: left;
     background-size:cover ;
     position:absolute;
