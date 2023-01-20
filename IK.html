@@ -2,8 +2,8 @@
 <html>
 
     <head>
-        <link rel="stylesheet" href="stili.css">
-        <link rel="stylesheet" href="sss.css">
+        <link rel="stylesheet" href="stili1.css">
+        <link rel="stylesheet" href="stiliRi.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet">
      
@@ -33,12 +33,7 @@
                     
                 </li>
             </ul>
-            <div class="search">
-                <form>
-                    <input type="text" placeholder="Search..." name="Search">
-                    <button type="submit"><i class="fa fa-magnifying-glass"></i></button>
-                </form>
-            </div>
+            
         </div>
     </head>
     <body>
@@ -207,6 +202,12 @@
          
         </div>
       </div>
+      <div>
+        <p id="p">Me shume</p>
+        <h1>
+            <a href="https://tryengineering.org/sq/profile/computer-engineering-2/" id="p">===>>></a>
+        </h1>
+     </div>
     </div>
   </section>
 
@@ -230,6 +231,17 @@
         el: ".swiper-pagination",
       },
     });
+
+    let colors=['rgb(148, 146, 146)','rgb(124, 122, 122)','rgb(91, 89, 89)','rgb(84, 82, 82)','rgb(76, 75, 75)','rgb(62, 61, 61)'];
+            
+            let i=0;
+             let c=()=>{
+            document.body.style.backgroundColor=colors[i];
+            i++;
+             }
+            
+             setInterval(c, 3000);
+
   </script>
     </body>
-</html>>
+</html>
