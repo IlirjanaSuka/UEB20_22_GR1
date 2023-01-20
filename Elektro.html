@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="stili.css">
+    <link rel="stylesheet" href="stili1.css">
     <link rel="stylesheet" href="stiliRi.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet">
@@ -10,7 +10,6 @@
     <div class="banner-area">
         <a href="#" class="logo">FindYourWay</a>
         <ul class="menu">
-            <li> <a  href="login.html">Sign Up</a></li>
            <li> <a href="login.html">Log In</a></li>
          
         </ul>
@@ -18,25 +17,18 @@
             <li><a href="Projekti.html"><i class="fa fa-home"></i>Home</a></li>
             <li><a href="#"><i class="fa fa-building-columns"></i>Drejtimet</a>
                     <ul class="dropdown">
-                        <li><a href="#">Automatikë e Kompjuterizuar dhe Robotikë</a></li>
                         <li><a href="Elektro.html">Elektroenergjetikë</a></li>
-                        <li><a href="#"> Elektronikë</a></li>
-                        <li><a href="#">Inxhinieri Kompjuterike</a></li>
+                        <li><a href="EAR.html"> Elektronikë</a></li>
+                        <li><a href="IK.html">Inxhinieri Kompjuterike</a></li>
                         <li><a href="TIK.html"> Telekomunikacion</a></li>
                     </ul>
             </li>
         
-            <li><a href="#"><i class="fa  fa-clone"></i>Këshilla</a></li>
+            <li><a href="keshilla.html"><i class="fa  fa-clone"></i>Këshilla</a></li>
             <li><a href="rrethNesh.html"><i class="fa-solid fa-users"></i>Rreth Nesh</a>
                 
             </li>
         </ul>
-        <!-- <div class="search">
-            <form>
-                <input type="text" placeholder="Search..." name="Search">
-                <button type="submit"><i class="fa fa-magnifying-glass"></i></button>
-            </form>
-        </div> -->
     </div>
   
 </head>
@@ -241,16 +233,19 @@
         el: ".swiper-pagination",
       },
     });
-
+    document.body.backgroundColor="rgb(148, 146, 146)";
             let colors=['rgb(148, 146, 146)','rgb(124, 122, 122)','rgb(91, 89, 89)','rgb(84, 82, 82)','rgb(76, 75, 75)','rgb(62, 61, 61)'];
             
             let i=0;
              let c=()=>{
             document.body.style.backgroundColor=colors[i];
+          
+
+            if(i==(colors.length-1)) i=0;
             i++;
              }
             
-             setInterval(c, 3000);
+             setInterval(c, 2000);
             
           
   </script>
