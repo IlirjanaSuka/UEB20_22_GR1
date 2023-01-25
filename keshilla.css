@@ -320,6 +320,15 @@ table a:hover{
     height: auto;
     
 }
+audio{
+    margin-top: 20px;
+}
+.au{
+    color: rgb(113, 10, 10);
+    margin-top: 100px;
+    font-weight: bold;
+    margin-left: 20px;
+}
 
 .col-lg-2  a{
     text-decoration: none;
