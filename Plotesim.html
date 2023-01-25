@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
+     
+<style>
+    .div2{
+        position: absolute;
+        top: -17px;
+        left: 200px;
+         z-index:2;
+       
+    }
+    .div1{
+        position: relative;
+        z-index:1;
+    }
+</style>
 
     </head>
     <body>
         
         
-        <div style="background-color: beige;">
+        <div class="div1" style="background-color: beige;">
             <h3 style="text-shadow:2px 2px #009dfe; "><b><u> Profesoret e rregullt</u></b></h3>
-            
             <p id="demo"></p>
+            <div class="div2">
+                <h3 style="text-shadow:2px 2px #009dfe; "><b><u> Oret mesimore</u></b></h3>
+                <p id="demo2"></p>
+            </div>
+           
+        
+            
             <hr>
 
             <h3 style="text-shadow: 2px 2px #00c8ff;">Lendet qe ligjerojne: </h3>
@@ -61,10 +81,11 @@
 </li>
 <div style="background-color: #009dfe; transform-origin: -100% 50%;
 transform: rotate(15deg);width:100px;height:100px "><address>Prishtine, Fakulteti Teknik</address></div>
-<div>
+
 
             </ol>
-        </div>
+         </div>
+        
         <form action="/action_page.php" method="get" style="padding-top: 30px;">
             <label for="form">Choose your favorite:</label>
             <input list="name" name="form" id="form">
@@ -87,12 +108,35 @@ transform: rotate(15deg);width:100px;height:100px "><address>Prishtine, Fakultet
             }
             
             document.getElementById("demo").innerHTML = text;
-            
-            
-            
-            
-            
+
+         
             console.log(prof*5);
+
+            const oret = [14,12,11,15,17,10];
+            
+            let num = "";
+            for (let i = 0; i < oret.length; i++) {
+              num += "<i>"+oret[i] + "<br>";
+            }
+          const oretx2 = oret.map(myFunction);
+          function myFunction(value, index, array) {
+          return value * 2;
+          }
+          const oretMbi10 = oret.filter(myFunc);
+          function myFunc(value, index, array) {
+          return value > 10;
+          }
+          let sum = oret.reduce(myF)
+          function myF(total, value, index, array) {
+          return total + value;
+          } 
+           console.log(Math.max(14,12,11,15,17,10));
+           console.log(Math.min(14,12,11,15,17,10));
+           console.log(oretx2);
+           console.log(oretMbi10);
+           console.log(sum)
+            
+            document.getElementById("demo2").innerHTML = num;
             </script>
     </body>
 </html>
