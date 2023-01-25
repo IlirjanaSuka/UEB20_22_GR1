@@ -242,23 +242,19 @@ table a{
 table a:hover{
     color:rgb(130,10,10);
 }
-video{
-    width: 400px;
-    border: 4px solid rgb(130,10,10);
-    margin-top: 60px;
-    margin-left: 20px;
-    border-radius: 2px;
-    box-shadow: 2px 2px 0 0 rgb(130,10,10);
+.V1{
+    
+    gap: 300px;
+    margin-left: 10%;
+   
 }
-.vide{
-    margin-top: 120px;
-    margin-left: 20px;
-    color: rgb(130,10,10);
-    font-size: 24px;
+.video h5{
+    color: rgb(113, 10, 10);
+    text-align: center;
+    margin-top: 50px;
     font-weight: bold;
-
 }
-.video{
+.video1{
     width: 400px;
     border: 4px solid rgb(130,10,10);
     margin-top: 25px;
@@ -266,13 +262,63 @@ video{
     border-radius: 2px;
     box-shadow: 2px 2px 0 0 rgb(130,10,10);
 }
-.vid{
-    margin-top: 80px;
+.video2{
+    width: 400px;
+    border: 4px solid rgb(130,10,10);
+    margin-top: 25px;
     margin-left: 20px;
-    color: rgb(130,10,10);
-    font-size: 24px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 0 rgb(130,10,10);
+}
+@media (min-width: 768px){
+.V1{
+    display: flex;
+}
+}
+.mov{
+    color: #fff;
     font-weight: bold;
-
+    text-transform: uppercase;
+    list-style: none;
+}
+.movie{
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    list-style: disc;
+    
+}
+.movies{
+    line-height: 35px;
+    margin-top: 320px;
+    margin-left: 60px;
+}
+.contai{
+    max-width: 500px;
+    margin: auto;
+    overflow: auto;
+    margin-top: -490px;
+    margin-left: 55%;
+}
+.we{
+    background: rgb(113, 10, 10);
+    text-decoration: none;
+    height: 500px;
+    margin-top: -450px;
+    z-index: -1;
+}
+.gallery{
+    margin:5px;
+    border: 3px solid #fff;
+    float: left;
+    margin-left: 10px;
+    width: 150px;
+    
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+    
 }
 
 .col-lg-2  a{
@@ -285,11 +331,10 @@ video{
     padding-left: 0;
 }
 
-
 .footer{
     background-color: rgb(113, 10, 10);
     padding-top:40px;
-    margin-top: 100px;
+   
 }
 .footer-about{
     margin-bottom:30px ;
